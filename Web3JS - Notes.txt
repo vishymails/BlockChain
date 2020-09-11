@@ -1,0 +1,42 @@
+Web3.js - Ethereum 
+1.0.0
+
+mkdir Ethereum-DappCasestudy
+
+cd Ethereum-DappCasestudy
+
+npm init
+
+npm install web3
+
+create solidity rule file - OracleCourses.sol
+
+deploy solidity file to ganache  
+
+create main.css
+
+create index.html
+
+
+
+TRUFFLE DEMO
+------------
+
+
+mkdir TruffleExample
+cd TruffleExample 
+
+npm install -g truffle
+
+truffle unbox metacoin
+
+open files using Atom / VS Code 
+
+come back to terminal window 
+
+truffle compile 
+
+truffle migrate 
+
+truffle test 
+

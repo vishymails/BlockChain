@@ -1,0 +1,119 @@
+Required Softwares 
+-------------------
+
+CURL
+Docker 
+Docker-Compose 
+Go
+Node.js 
+NPM
+Python 2.7 - only (later versions are not supported as of now If your server supports 3.x uninstall and downgrade 
+to 2.7)
+
+
+
+sudo apt install curl 
+
+
+sudo apt install docker 
+
+sudo apt install docker-compose 
+
+
+docker --version 
+
+docker-compose --version 
+
+
+sudo apt install golang-go
+
+go 
+
+
+install python or if it is available in OS then try 
+
+python --version 
+
+
+sudo apt install node 
+
+
+node -v
+
+
+npm --version 
+
+git config --global core.autocrlf false 
+
+
+git config --global core.longpaths true 
+
+
+
+mkdir Oracle-Fabrics
+
+cd Oracle-Fabrics
+
+
+curl -sSL http://bit.ly/2ysb0FE | bash -s 
+
+(download all scripts and samples from fabrics to your system, then we can run those scripts to install the product )
+
+
+It creates lots of folders 
+
+Important folders are 
+
+First-Network 
+commercial-paper 
+fabcar 
+
+
+then you enter 
+
+cd first-network 
+
+./byfn.sh 
+
+Other variants in the command 
+
+./byfn.sh generate 
+
+
+./byfn.sh up  - go lang as a internal language 
+
+./byfn.sh up -l java - starts engine using java language 
+
+you can change to Node also 
+
+
+to bring down the network 
+
+./byfn.sh down 
+
+Installing the Hyperledger Composer tools
+$ npm install -g composer-cli
+$ npm install -g composer-rest-server
+$ npm install -g generator-hyperledger-composer
+$ npm install -g yo
+$ npm install -g composer-playground
+
+
+
+Installing Hyperledger Fabric
+$ mkdir ~/fabric-dev-servers && cd ~/fabric-dev-servers
+$ curl -O https://raw.githubusercontent.com/hyperledger/composertools/
+master/packages/fabric-dev-servers/fabric-dev-servers.tar.gz
+$ tar -xvf fabric-dev-servers.tar.gz
+$ ./downloadFabric.sh
+
+
+
+$ ./startFabric.sh
+
+
+
+$ ./createPeerAdminCard.sh
+
+
+

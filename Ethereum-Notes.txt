@@ -1,0 +1,16 @@
+
+npm install -g ganache-cli
+
+
+npm install -g ethereumjs-testrpc
+
+
+testrpc
+
+
+ 
+git clone https://github.com/etherparty/explorer
+
+cd explorer
+
+npm start

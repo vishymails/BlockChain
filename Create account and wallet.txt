@@ -1,0 +1,56 @@
+npm install web3
+
+
+node
+
+Web3 = require('web3')
+
+web3 = new Web3() //pass infura address as parameter in to the constructor
+
+
+web3.eth.accounts.create()
+
+private key generated is very important 
+
+ 
+json = web3.eth.accounts.encrypt('PRIVATE_KEY', 'PASSWORD')
+
+
+
+WHAT IT GENERATES YOU CAN STORE IN WALLET OR USE IT GENERATE SOME SECURITY 
+
+HERE json is the keystore.
+
+to decrypt 
+
+web3.eth.accounts.decrypt(json, 'PASSWORD')
+
+
+
+you can have any number of accounts in single wallet 
+
+so create wallet 
+
+
+web3.eth.accounts.wallet.create()
+
+web3.eth.accounts.wallet.create(10) - to create multiple accounts 
+
+
+keystore = web3.eth.accounts.wallet.encrypt('password')
+
+
+to decrypt 
+
+web3.eth.accounts.wallet.decrypt(keystore, 'password')
+
+
+to clear wallet 
+web3.eth.accounts.wallet.clear()
+
+------------------------------------
+
+
+
+
+
